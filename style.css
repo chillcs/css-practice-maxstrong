@@ -44,17 +44,256 @@ body {
 .h-h1,
 .h-h2,
 .h-h3,
-.h-h4 {
+.h-h4,
+.p-p1,
+.p-p2,
+.p-p3,
+.btn {
 	font-family: Hellix;
 	font-weight: normal;
+}
+
+.h-h1 {
+	font-size: 64px;
+}
+
+.h-h2 {
+	font-size: 48px;
+}
+
+.h-h3 {
+	font-size: 36px;
+}
+
+.h-h4 {
+	font-size: 24px;
 }
 
 .p-p1 {
 	font-family: Hellix;
 	font-weight: 100;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.p-p2 {
+	font-family: Hellix;
+	font-weight: regular;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.p-p3 {
+	font-family: Hellix;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 25px;
 }
 
 .bold {
 	font-family: Hellix;
 	font-weight: 600;
+}
+
+a,
+li {
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn {
+	background: #4b5092;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	font-size: 18px;
+	width: 200px;
+	padding: 15px 25px;
+	cursor: pointer;
+}
+
+/* Layout --- */
+
+.header {
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.section--hero {
+	background: linear-gradient(180deg, #e5e5e5 0%, #fff 100%);
+	padding: 25px 0;
+	text-align: center;
+}
+
+.section--hero .h-h1 {
+	padding-bottom: 15px;
+}
+
+.section--hero .p-p1 {
+	padding-bottom: 30px;
+}
+
+.content-box {
+	padding: 35px 25px;
+}
+
+#img-hero {
+	background: url('/assets/img-hero.png') no-repeat center;
+	background-size: cover;
+	height: 414px;
+}
+
+.section--choose {
+	padding: 25px 0;
+	text-align: left;
+}
+
+.section--choose .content-box {
+	background-color: #f2f8ff;
+}
+
+#img-choose {
+	background: url('/assets/img-choose.png') no-repeat center;
+	background-size: cover;
+	height: 276px;
+	margin-bottom: 50px;
+}
+
+.section--alexander {
+	background: linear-gradient(99.85deg, #bad5ff 0%, #6487bf 100%);
+	padding: 25px 0;
+	padding-bottom: 0;
+	text-align: center;
+	margin: 50px 0;
+}
+
+.section--alexander .p-p2 {
+	padding-bottom: 15px;
+}
+
+.section--alexander .p-p1:last-of-type {
+	padding-bottom: 25px;
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #436baa;
+	width: 250px;
+}
+
+#img-alexander {
+	background: url('/assets/img-alexander.png') no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
+
+.section--benefits {
+	padding: 25px 0;
+	text-align: center;
+}
+
+#img-benefits {
+	background: url('/assets/img-benefits.png') no-repeat center;
+	background-size: cover;
+	height: 414px;
+	margin-bottom: 50px;
+}
+
+.section--benefits .h-h2 {
+	padding: 15px 25px;
+	text-align: left;
+}
+
+.benefit-box {
+	padding: 35px 75px 35px 25px;
+	margin: 15px 25px;
+	border-radius: 25px;
+	text-align: left;
+}
+
+.benefit-box:last-of-type {
+	margin-bottom: 35px;
+}
+
+.bg1 {
+	background-color: #e4f0ff;
+}
+
+.bg2 {
+	background-color: rgba(114, 122, 239, 0.1);
+}
+
+.section--benefits .h-h4 {
+	padding-bottom: 15px;
+}
+
+.section--benefits .btn {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.footer {
+	background: linear-gradient(0deg, #dce9ff 0%, #ffffff 100%);
+	border-top: 2px solid #e5e5e5;
+	padding: 35px 0;
+	text-align: center;
+}
+
+.footer .h-h3 {
+	padding-bottom: 25px;
+}
+
+.footer-menu li {
+	padding: 15px 0;
+	font-family: hellix;
+	font-size: 16px;
+	font-weight: regular;
+	color: black;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0;
+}
+
+.inline {
+	display: flex;
+	justify-content: center;
+}
+
+form label {
+	font-family: hellix;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	padding: 15px;
+	border: none;
+}
+
+form input {
+	font-family: hellix;
+	font-size: 14px;
+	font-weight: regular;
+	color: black;
+	width: 250px;
+	padding: 10px;
+	border: none;
+}
+
+form button {
+	width: 15px;
+	background: none;
+	border: none;
+	margin-left: -25px;
+}
+
+.icon-box img {
+	margin: 5px;
+}
+
+.footer .p-p3 {
+	margin: 50px 0;
 }
