@@ -1,0 +1,60 @@
+/* Landing Page --- */
+
+/* Imports --- */
+
+@font-face {
+	font-family: 'Hellix';
+	src: url('/assets/Hellix-Regular.ttf');
+	src: local('/assets/Hellix Regular'), local('/assets/Hellix-Regular'),
+		url('/assets/Hellix-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hellix';
+	src: url('/assests/Hellix-SemiBold.eot');
+	src: local('/assets/Hellix SemiBold'), local('/assets/Hellix-SemiBold'),
+		url('/assets/Hellix-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hellix';
+	src: url('/assets/Hellix-Thin.eot');
+	src: local('/assets/Hellix Thin'), local('/assets/Hellix-Thin'),
+		url('/assets/Hellix-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+/* Global Settings --- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+.h-h1,
+.h-h2,
+.h-h3,
+.h-h4 {
+	font-family: Hellix;
+	font-weight: normal;
+}
+
+.p-p1 {
+	font-family: Hellix;
+	font-weight: 100;
+}
+
+.bold {
+	font-family: Hellix;
+	font-weight: 600;
+}
